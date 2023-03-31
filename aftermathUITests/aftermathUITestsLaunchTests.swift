@@ -1,13 +1,13 @@
 //
-//  CatTipUITestsLaunchTests.swift
-//  CatTipUITests
+//  aftermathUITestsLaunchTests.swift
+//  aftermathUITests
 //
 //  Created by Cindy Ho on 3/30/23.
 //
 
 import XCTest
 
-final class CatTipUITestsLaunchTests: XCTestCase {
+final class aftermathUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

@@ -1,13 +1,13 @@
 //
-//  CatTipUITests.swift
-//  CatTipUITests
+//  aftermathUITests.swift
+//  aftermathUITests
 //
 //  Created by Cindy Ho on 3/30/23.
 //
 
 import XCTest
 
-final class CatTipUITests: XCTestCase {
+final class aftermathUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

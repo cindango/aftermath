@@ -13,8 +13,8 @@ struct CustomKeypad: View {
                             value += "\(num)"
                         }) {
                             Text("\(num)")
-                                .font(Font.custom("Slack-Light", size: 40))
-                                .frame(width: 80, height: 64)
+                                .font(Font.custom("Slack-Light", size: 36))
+                                .frame(width: 100, height: 64)
                                 .foregroundColor(.white)
                         }
                     }
@@ -29,8 +29,8 @@ struct CustomKeypad: View {
                     }
                 }) {
                     Text(".")
-                        .font(Font.custom("Slack-Light", size: 40))
-                        .frame(width: 80, height: 64)
+                        .font(Font.custom("Slack-Light", size: 36))
+                        .frame(width: 100, height: 64)
                         .foregroundColor(.white)
                 }
 
@@ -38,8 +38,8 @@ struct CustomKeypad: View {
                     value += "0"
                 }) {
                     Text("0")
-                        .font(Font.custom("Slack-Light", size: 40))
-                        .frame(width: 80, height: 64)
+                        .font(Font.custom("Slack-Light", size: 36))
+                        .frame(width: 100, height: 64)
                         .foregroundColor(.white)
                 }
 

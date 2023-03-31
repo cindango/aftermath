@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		370BA0AC29D68E6900918E79 /* Slack-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 370BA0AB29D68D5A00918E79 /* Slack-Light.otf */; };
-		37B0DB0D29D67E8E00EEDCFA /* CatTipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B0DB0C29D67E8E00EEDCFA /* CatTipApp.swift */; };
+		37B0DB0D29D67E8E00EEDCFA /* aftermathApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B0DB0C29D67E8E00EEDCFA /* aftermathApp.swift */; };
 		37B0DB0F29D67E8E00EEDCFA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B0DB0E29D67E8E00EEDCFA /* ContentView.swift */; };
 		37B0DB1129D67E8F00EEDCFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37B0DB1029D67E8F00EEDCFA /* Assets.xcassets */; };
 		37B0DB1429D67E8F00EEDCFA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37B0DB1329D67E8F00EEDCFA /* Preview Assets.xcassets */; };
-		37B0DB1E29D67E8F00EEDCFA /* CatTipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B0DB1D29D67E8F00EEDCFA /* CatTipTests.swift */; };
-		37B0DB2829D67E8F00EEDCFA /* CatTipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B0DB2729D67E8F00EEDCFA /* CatTipUITests.swift */; };
-		37B0DB2A29D67E8F00EEDCFA /* CatTipUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B0DB2929D67E8F00EEDCFA /* CatTipUITestsLaunchTests.swift */; };
+		37B0DB1E29D67E8F00EEDCFA /* aftermathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B0DB1D29D67E8F00EEDCFA /* aftermathTests.swift */; };
+		37B0DB2829D67E8F00EEDCFA /* aftermathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B0DB2729D67E8F00EEDCFA /* aftermathUITests.swift */; };
+		37B0DB2A29D67E8F00EEDCFA /* aftermathUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B0DB2929D67E8F00EEDCFA /* aftermathUITestsLaunchTests.swift */; };
 		37B0DB3729D67F3700EEDCFA /* CustomKeypad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B0DB3629D67F3700EEDCFA /* CustomKeypad.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,15 +38,15 @@
 /* Begin PBXFileReference section */
 		370BA0AB29D68D5A00918E79 /* Slack-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Slack-Light.otf"; sourceTree = "<group>"; };
 		37B0DB0929D67E8E00EEDCFA /* aftermath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aftermath.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		37B0DB0C29D67E8E00EEDCFA /* CatTipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatTipApp.swift; sourceTree = "<group>"; };
+		37B0DB0C29D67E8E00EEDCFA /* aftermathApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aftermathApp.swift; sourceTree = "<group>"; };
 		37B0DB0E29D67E8E00EEDCFA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		37B0DB1029D67E8F00EEDCFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37B0DB1329D67E8F00EEDCFA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		37B0DB1929D67E8F00EEDCFA /* aftermathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aftermathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		37B0DB1D29D67E8F00EEDCFA /* CatTipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatTipTests.swift; sourceTree = "<group>"; };
+		37B0DB1D29D67E8F00EEDCFA /* aftermathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aftermathTests.swift; sourceTree = "<group>"; };
 		37B0DB2329D67E8F00EEDCFA /* aftermathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aftermathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		37B0DB2729D67E8F00EEDCFA /* CatTipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatTipUITests.swift; sourceTree = "<group>"; };
-		37B0DB2929D67E8F00EEDCFA /* CatTipUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatTipUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		37B0DB2729D67E8F00EEDCFA /* aftermathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aftermathUITests.swift; sourceTree = "<group>"; };
+		37B0DB2929D67E8F00EEDCFA /* aftermathUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aftermathUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		37B0DB3629D67F3700EEDCFA /* CustomKeypad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomKeypad.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,9 +78,9 @@
 		37B0DB0029D67E8E00EEDCFA = {
 			isa = PBXGroup;
 			children = (
-				37B0DB0B29D67E8E00EEDCFA /* CatTip */,
-				37B0DB1C29D67E8F00EEDCFA /* CatTipTests */,
-				37B0DB2629D67E8F00EEDCFA /* CatTipUITests */,
+				37B0DB0B29D67E8E00EEDCFA /* aftermath */,
+				37B0DB1C29D67E8F00EEDCFA /* aftermathTests */,
+				37B0DB2629D67E8F00EEDCFA /* aftermathUITests */,
 				37B0DB0A29D67E8E00EEDCFA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,17 +95,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		37B0DB0B29D67E8E00EEDCFA /* CatTip */ = {
+		37B0DB0B29D67E8E00EEDCFA /* aftermath */ = {
 			isa = PBXGroup;
 			children = (
 				370BA0AB29D68D5A00918E79 /* Slack-Light.otf */,
-				37B0DB0C29D67E8E00EEDCFA /* CatTipApp.swift */,
+				37B0DB0C29D67E8E00EEDCFA /* aftermathApp.swift */,
 				37B0DB0E29D67E8E00EEDCFA /* ContentView.swift */,
 				37B0DB3629D67F3700EEDCFA /* CustomKeypad.swift */,
 				37B0DB1029D67E8F00EEDCFA /* Assets.xcassets */,
 				37B0DB1229D67E8F00EEDCFA /* Preview Content */,
 			);
-			path = CatTip;
+			path = aftermath;
 			sourceTree = "<group>";
 		};
 		37B0DB1229D67E8F00EEDCFA /* Preview Content */ = {
@@ -116,21 +116,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		37B0DB1C29D67E8F00EEDCFA /* CatTipTests */ = {
+		37B0DB1C29D67E8F00EEDCFA /* aftermathTests */ = {
 			isa = PBXGroup;
 			children = (
-				37B0DB1D29D67E8F00EEDCFA /* CatTipTests.swift */,
+				37B0DB1D29D67E8F00EEDCFA /* aftermathTests.swift */,
 			);
-			path = CatTipTests;
+			path = aftermathTests;
 			sourceTree = "<group>";
 		};
-		37B0DB2629D67E8F00EEDCFA /* CatTipUITests */ = {
+		37B0DB2629D67E8F00EEDCFA /* aftermathUITests */ = {
 			isa = PBXGroup;
 			children = (
-				37B0DB2729D67E8F00EEDCFA /* CatTipUITests.swift */,
-				37B0DB2929D67E8F00EEDCFA /* CatTipUITestsLaunchTests.swift */,
+				37B0DB2729D67E8F00EEDCFA /* aftermathUITests.swift */,
+				37B0DB2929D67E8F00EEDCFA /* aftermathUITestsLaunchTests.swift */,
 			);
-			path = CatTipUITests;
+			path = aftermathUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +266,7 @@
 			files = (
 				37B0DB0F29D67E8E00EEDCFA /* ContentView.swift in Sources */,
 				37B0DB3729D67F3700EEDCFA /* CustomKeypad.swift in Sources */,
-				37B0DB0D29D67E8E00EEDCFA /* CatTipApp.swift in Sources */,
+				37B0DB0D29D67E8E00EEDCFA /* aftermathApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37B0DB1E29D67E8F00EEDCFA /* CatTipTests.swift in Sources */,
+				37B0DB1E29D67E8F00EEDCFA /* aftermathTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +282,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37B0DB2829D67E8F00EEDCFA /* CatTipUITests.swift in Sources */,
-				37B0DB2A29D67E8F00EEDCFA /* CatTipUITestsLaunchTests.swift in Sources */,
+				37B0DB2829D67E8F00EEDCFA /* aftermathUITests.swift in Sources */,
+				37B0DB2A29D67E8F00EEDCFA /* aftermathUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,11 +424,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CatTip/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"aftermath/Preview Content\"";
 				DEVELOPMENT_TEAM = BC5SAZWPSV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CatTip/Info.plist;
+				INFOPLIST_FILE = aftermath/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = aftermath;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -440,7 +440,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cindycorp.CatTip;
+				PRODUCT_BUNDLE_IDENTIFIER = cindycorp.aftermath;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -455,11 +455,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CatTip/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"aftermath/Preview Content\"";
 				DEVELOPMENT_TEAM = BC5SAZWPSV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CatTip/Info.plist;
+				INFOPLIST_FILE = aftermath/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = aftermath;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -471,7 +471,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cindycorp.CatTip;
+				PRODUCT_BUNDLE_IDENTIFIER = cindycorp.aftermath;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
