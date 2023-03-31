@@ -37,14 +37,14 @@
 
 /* Begin PBXFileReference section */
 		370BA0AB29D68D5A00918E79 /* Slack-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Slack-Light.otf"; sourceTree = "<group>"; };
-		37B0DB0929D67E8E00EEDCFA /* CatTip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatTip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37B0DB0929D67E8E00EEDCFA /* aftermath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aftermath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37B0DB0C29D67E8E00EEDCFA /* CatTipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatTipApp.swift; sourceTree = "<group>"; };
 		37B0DB0E29D67E8E00EEDCFA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		37B0DB1029D67E8F00EEDCFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37B0DB1329D67E8F00EEDCFA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		37B0DB1929D67E8F00EEDCFA /* CatTipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatTipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37B0DB1929D67E8F00EEDCFA /* aftermathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aftermathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37B0DB1D29D67E8F00EEDCFA /* CatTipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatTipTests.swift; sourceTree = "<group>"; };
-		37B0DB2329D67E8F00EEDCFA /* CatTipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatTipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37B0DB2329D67E8F00EEDCFA /* aftermathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aftermathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37B0DB2729D67E8F00EEDCFA /* CatTipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatTipUITests.swift; sourceTree = "<group>"; };
 		37B0DB2929D67E8F00EEDCFA /* CatTipUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatTipUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		37B0DB3629D67F3700EEDCFA /* CustomKeypad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomKeypad.swift; sourceTree = "<group>"; };
@@ -88,9 +88,9 @@
 		37B0DB0A29D67E8E00EEDCFA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				37B0DB0929D67E8E00EEDCFA /* CatTip.app */,
-				37B0DB1929D67E8F00EEDCFA /* CatTipTests.xctest */,
-				37B0DB2329D67E8F00EEDCFA /* CatTipUITests.xctest */,
+				37B0DB0929D67E8E00EEDCFA /* aftermath.app */,
+				37B0DB1929D67E8F00EEDCFA /* aftermathTests.xctest */,
+				37B0DB2329D67E8F00EEDCFA /* aftermathUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,9 +136,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		37B0DB0829D67E8E00EEDCFA /* CatTip */ = {
+		37B0DB0829D67E8E00EEDCFA /* aftermath */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37B0DB2D29D67E8F00EEDCFA /* Build configuration list for PBXNativeTarget "CatTip" */;
+			buildConfigurationList = 37B0DB2D29D67E8F00EEDCFA /* Build configuration list for PBXNativeTarget "aftermath" */;
 			buildPhases = (
 				37B0DB0529D67E8E00EEDCFA /* Sources */,
 				37B0DB0629D67E8E00EEDCFA /* Frameworks */,
@@ -148,14 +148,14 @@
 			);
 			dependencies = (
 			);
-			name = CatTip;
+			name = aftermath;
 			productName = CatTip;
-			productReference = 37B0DB0929D67E8E00EEDCFA /* CatTip.app */;
+			productReference = 37B0DB0929D67E8E00EEDCFA /* aftermath.app */;
 			productType = "com.apple.product-type.application";
 		};
-		37B0DB1829D67E8F00EEDCFA /* CatTipTests */ = {
+		37B0DB1829D67E8F00EEDCFA /* aftermathTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37B0DB3029D67E8F00EEDCFA /* Build configuration list for PBXNativeTarget "CatTipTests" */;
+			buildConfigurationList = 37B0DB3029D67E8F00EEDCFA /* Build configuration list for PBXNativeTarget "aftermathTests" */;
 			buildPhases = (
 				37B0DB1529D67E8F00EEDCFA /* Sources */,
 				37B0DB1629D67E8F00EEDCFA /* Frameworks */,
@@ -166,14 +166,14 @@
 			dependencies = (
 				37B0DB1B29D67E8F00EEDCFA /* PBXTargetDependency */,
 			);
-			name = CatTipTests;
+			name = aftermathTests;
 			productName = CatTipTests;
-			productReference = 37B0DB1929D67E8F00EEDCFA /* CatTipTests.xctest */;
+			productReference = 37B0DB1929D67E8F00EEDCFA /* aftermathTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		37B0DB2229D67E8F00EEDCFA /* CatTipUITests */ = {
+		37B0DB2229D67E8F00EEDCFA /* aftermathUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37B0DB3329D67E8F00EEDCFA /* Build configuration list for PBXNativeTarget "CatTipUITests" */;
+			buildConfigurationList = 37B0DB3329D67E8F00EEDCFA /* Build configuration list for PBXNativeTarget "aftermathUITests" */;
 			buildPhases = (
 				37B0DB1F29D67E8F00EEDCFA /* Sources */,
 				37B0DB2029D67E8F00EEDCFA /* Frameworks */,
@@ -184,9 +184,9 @@
 			dependencies = (
 				37B0DB2529D67E8F00EEDCFA /* PBXTargetDependency */,
 			);
-			name = CatTipUITests;
+			name = aftermathUITests;
 			productName = CatTipUITests;
-			productReference = 37B0DB2329D67E8F00EEDCFA /* CatTipUITests.xctest */;
+			productReference = 37B0DB2329D67E8F00EEDCFA /* aftermathUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 37B0DB0429D67E8E00EEDCFA /* Build configuration list for PBXProject "CatTip" */;
+			buildConfigurationList = 37B0DB0429D67E8E00EEDCFA /* Build configuration list for PBXProject "aftermath" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,9 +225,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				37B0DB0829D67E8E00EEDCFA /* CatTip */,
-				37B0DB1829D67E8F00EEDCFA /* CatTipTests */,
-				37B0DB2229D67E8F00EEDCFA /* CatTipUITests */,
+				37B0DB0829D67E8E00EEDCFA /* aftermath */,
+				37B0DB1829D67E8F00EEDCFA /* aftermathTests */,
+				37B0DB2229D67E8F00EEDCFA /* aftermathUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -292,12 +292,12 @@
 /* Begin PBXTargetDependency section */
 		37B0DB1B29D67E8F00EEDCFA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 37B0DB0829D67E8E00EEDCFA /* CatTip */;
+			target = 37B0DB0829D67E8E00EEDCFA /* aftermath */;
 			targetProxy = 37B0DB1A29D67E8F00EEDCFA /* PBXContainerItemProxy */;
 		};
 		37B0DB2529D67E8F00EEDCFA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 37B0DB0829D67E8E00EEDCFA /* CatTip */;
+			target = 37B0DB0829D67E8E00EEDCFA /* aftermath */;
 			targetProxy = 37B0DB2429D67E8F00EEDCFA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -495,7 +495,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatTip.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CatTip";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aftermath.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/aftermath";
 			};
 			name = Debug;
 		};
@@ -515,7 +515,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatTip.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CatTip";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aftermath.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/aftermath";
 			};
 			name = Release;
 		};
@@ -558,7 +558,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		37B0DB0429D67E8E00EEDCFA /* Build configuration list for PBXProject "CatTip" */ = {
+		37B0DB0429D67E8E00EEDCFA /* Build configuration list for PBXProject "aftermath" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37B0DB2B29D67E8F00EEDCFA /* Debug */,
@@ -567,7 +567,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37B0DB2D29D67E8F00EEDCFA /* Build configuration list for PBXNativeTarget "CatTip" */ = {
+		37B0DB2D29D67E8F00EEDCFA /* Build configuration list for PBXNativeTarget "aftermath" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37B0DB2E29D67E8F00EEDCFA /* Debug */,
@@ -576,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37B0DB3029D67E8F00EEDCFA /* Build configuration list for PBXNativeTarget "CatTipTests" */ = {
+		37B0DB3029D67E8F00EEDCFA /* Build configuration list for PBXNativeTarget "aftermathTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37B0DB3129D67E8F00EEDCFA /* Debug */,
@@ -585,7 +585,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37B0DB3329D67E8F00EEDCFA /* Build configuration list for PBXNativeTarget "CatTipUITests" */ = {
+		37B0DB3329D67E8F00EEDCFA /* Build configuration list for PBXNativeTarget "aftermathUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37B0DB3429D67E8F00EEDCFA /* Debug */,
