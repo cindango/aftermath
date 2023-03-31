@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		370BA0AC29D68E6900918E79 /* Slack-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 370BA0AB29D68D5A00918E79 /* Slack-Light.otf */; };
 		37B0DB0D29D67E8E00EEDCFA /* CatTipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B0DB0C29D67E8E00EEDCFA /* CatTipApp.swift */; };
 		37B0DB0F29D67E8E00EEDCFA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B0DB0E29D67E8E00EEDCFA /* ContentView.swift */; };
 		37B0DB1129D67E8F00EEDCFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37B0DB1029D67E8F00EEDCFA /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 		37B0DB1E29D67E8F00EEDCFA /* CatTipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B0DB1D29D67E8F00EEDCFA /* CatTipTests.swift */; };
 		37B0DB2829D67E8F00EEDCFA /* CatTipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B0DB2729D67E8F00EEDCFA /* CatTipUITests.swift */; };
 		37B0DB2A29D67E8F00EEDCFA /* CatTipUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B0DB2929D67E8F00EEDCFA /* CatTipUITestsLaunchTests.swift */; };
+		37B0DB3729D67F3700EEDCFA /* CustomKeypad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B0DB3629D67F3700EEDCFA /* CustomKeypad.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		370BA0AB29D68D5A00918E79 /* Slack-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Slack-Light.otf"; sourceTree = "<group>"; };
 		37B0DB0929D67E8E00EEDCFA /* CatTip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatTip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37B0DB0C29D67E8E00EEDCFA /* CatTipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatTipApp.swift; sourceTree = "<group>"; };
 		37B0DB0E29D67E8E00EEDCFA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +47,7 @@
 		37B0DB2329D67E8F00EEDCFA /* CatTipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatTipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37B0DB2729D67E8F00EEDCFA /* CatTipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatTipUITests.swift; sourceTree = "<group>"; };
 		37B0DB2929D67E8F00EEDCFA /* CatTipUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatTipUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		37B0DB3629D67F3700EEDCFA /* CustomKeypad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomKeypad.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +98,10 @@
 		37B0DB0B29D67E8E00EEDCFA /* CatTip */ = {
 			isa = PBXGroup;
 			children = (
+				370BA0AB29D68D5A00918E79 /* Slack-Light.otf */,
 				37B0DB0C29D67E8E00EEDCFA /* CatTipApp.swift */,
 				37B0DB0E29D67E8E00EEDCFA /* ContentView.swift */,
+				37B0DB3629D67F3700EEDCFA /* CustomKeypad.swift */,
 				37B0DB1029D67E8F00EEDCFA /* Assets.xcassets */,
 				37B0DB1229D67E8F00EEDCFA /* Preview Content */,
 			);
@@ -232,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37B0DB1429D67E8F00EEDCFA /* Preview Assets.xcassets in Resources */,
+				370BA0AC29D68E6900918E79 /* Slack-Light.otf in Resources */,
 				37B0DB1129D67E8F00EEDCFA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37B0DB0F29D67E8E00EEDCFA /* ContentView.swift in Sources */,
+				37B0DB3729D67F3700EEDCFA /* CustomKeypad.swift in Sources */,
 				37B0DB0D29D67E8E00EEDCFA /* CatTipApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +428,8 @@
 				DEVELOPMENT_TEAM = BC5SAZWPSV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CatTip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = aftermath;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +459,8 @@
 				DEVELOPMENT_TEAM = BC5SAZWPSV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CatTip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = aftermath;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
