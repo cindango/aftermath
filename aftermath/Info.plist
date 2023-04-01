@@ -6,9 +6,7 @@
 	<array>
 		<string>Slack-Light.otf</string>
 	</array>
-	<key>UTImportedTypeDeclarations</key>
-	<array>
-		<dict/>
-	</array>
+	<key>LSMinimumSystemVersion</key>
+	<string>13.3</string>
 </dict>
 </plist>
